@@ -14,11 +14,11 @@ That's right, all you have to do is change "https://bl.ocks.org" to "http://bloc
 
 # jsbin.com
 
-Here's the gist that underlies the block: <https://gist.github.com/mbostock/4062045>.
+Start with the URL for the gist (not the block): <https://gist.github.com/mbostock/4062045>.
 
 Browse to: https://gist.jsbin.com/mbostock/4062045
 
-This is similar to blockbuilder.org in that all you have to do is change "github" to "jsbin" in the gist's URL. But...
+That's right, all you have to do is change "github" to "jsbin" in the gist's URL. But...
 
 1. You'll have to change the URL for the data. In this case, you'll change
 

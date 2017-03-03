@@ -10,7 +10,7 @@ Here's how to load Mike Bostock's block <https://bl.ocks.org/mbostock/4062045> i
 
 Browse to: <http://blockbuilder.org/mbostock/4062045>.  
 
-That's right, all you have to do is change "https://bl.ocks.org" to "http://blockbuilder.org" in the URL (be careful to change https to http).  What's notable is that the blockbuilder loads data from the gist without need to reconfigure code.
+That's right, all you have to do is change "https://bl.ocks.org" to "http://blockbuilder.org" in the URL (be careful to change https to http).  Note that the blockbuilder loads data from the gist without need to reconfigure code!
 
 # jsbin.com
 

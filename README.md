@@ -45,9 +45,7 @@ The files used by JSFiddle:
 * demo.details (manifest for configuring remote resources, such as d3.v4.min.js)
 * miserables.json (data served from the master branch)
 
-For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfiddle guidelines</a>. In addition, several important modifications show up in ```demo.js```:
-
-Here are some other things that were changed to make it work well...
+For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfiddle guidelines</a>. In addition, several important modifications in ```demo.js``` were changed to make it work well...
 
 * window.onload -- the callback contains all the code from the block
 * svg -- the ```viewBox``` attribute and CSS ```width: 100%``` allow it to fit in the JSFiddle frame

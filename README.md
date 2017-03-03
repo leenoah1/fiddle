@@ -20,7 +20,7 @@ Browse to: https://gist.jsbin.com/mbostock/4062045
 
 That's right, all you have to do is change "github" to "jsbin" in the gist's URL. But...
 
-1. You'll have to change the URL for the data. In this case, you'll change
+1. You'll have to change the URL for the data. In this case, change one line
 
         d3.json("miserables.json", function(error, graph) {
 

@@ -16,7 +16,7 @@ That's right, all you have to do is change "https://bl.ocks.org" to "http://bloc
 
 Start with the URL for the gist (not the block): <https://gist.github.com/mbostock/4062045>.
 
-Browse to: https://gist.jsbin.com/mbostock/4062045
+Browse to: https://gist.jsbin.com/4062045
 
 That's right, all you have to do is change "github" to "jsbin" in the gist's URL. But...
 

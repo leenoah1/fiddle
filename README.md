@@ -53,9 +53,9 @@ Here are some other things that were changed to make it work well...
 * svg -- the ```viewBox``` attribute and CSS ```width: 100%``` allow it to fit in the JSFiddle frame
 * miserables.json -- served from this github project's website
 
-#### github project site
+# github project site
 
-The same files open with index.html (not used by JSFiddle) at the github project site:
+index.html (not used by JSFiddle) opens the JSFiddle files at the github project site:
 
 <https://umbcvis.github.io/fiddle/>
 

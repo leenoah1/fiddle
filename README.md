@@ -47,9 +47,9 @@ The files used by JSFiddle:
 
 For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfiddle guidelines</a>. In addition, several important modifications in ```demo.js``` were changed to make it work well...
 
-* window.onload -- the callback contains all the code from the block
-* svg -- the ```viewBox``` attribute and CSS ```width: 100%``` allow it to fit in the JSFiddle frame
-* miserables.json -- served from this github project's website
+* window.onload -- the callback contains all the code from the block (otherwise d3.js loads after the code)
+* svg -- the ```viewBox``` attribute and CSS ```width: 100%``` scale things to fit in the JSFiddle frame
+* miserables.json -- served locally from this github project's website
 
 # github project site
 

@@ -53,7 +53,7 @@ For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfidd
 
 # github project site
 
-index.html (not used by JSFiddle) opens the JSFiddle files at the github project site:
+index.html (not used by JSFiddle) opens the JSFiddle files directly from this umbcvis github project's page:
 
 <https://umbcvis.github.io/fiddle/>
 

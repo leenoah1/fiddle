@@ -33,7 +33,7 @@ That's right, all you have to do is change "github" to "jsbin" in the gist's URL
 
 # fiddle
 
-JSFiddle.com has a nice collaborative mode, but it's the most difficult to configure for loading gists.  The files in this repo have been set up to load automatically in JSFiddle. To simply open this repo in JSFIddle, click:
+JSFiddle.com has a nice collaborative mode, but it's the most difficult to configure for loading gists.  The files in this repo have been set up to load automatically in JSFiddle. To open the repo in JSFIddle, click:
 
 <http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/>
 
@@ -45,7 +45,7 @@ The files used by JSFiddle:
 * demo.details (manifest for configuring remote resources, such as d3.v4.min.js)
 * miserables.json (data served from the master branch)
 
-This demo applies <a href="http://doc.jsfiddle.net/use/github_read.html" target="_blank">JSfiddle guidelines</a> to [Mike Bostock's force-directed graph visualization](https://bl.ocks.org/mbostock/4064025).  Several important modifications show up in ```demo.js```:
+For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfiddle guidelines</a>. In addition, several important modifications show up in ```demo.js```:
 
 Here are some other things that were changed to make it work well...
 

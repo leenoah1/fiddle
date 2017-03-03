@@ -2,7 +2,9 @@
 
 There are quite a few JavaScript playgrounds.  For our purposes, <http://blockbuilder.org> may be the best.
 
-Here's how to load Mike Bostock's block <https://bl.ocks.org/mbostock/4062045> in each one.
+Note: For debugging code, there's really no substitute for the developer's console.  Be careful with the playgrounds, since they display output in iframes, so you'll probably need to change the execution context accordingly.  See [this stackoverflow post](http://stackoverflow.com/questions/3275816/debugging-iframes-with-chrome-developer-tools) for more info.
+
+Here's how to load Mike Bostock's block <https://bl.ocks.org/mbostock/4062045> in each playground.
 
 # blockbuilder.org
 

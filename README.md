@@ -18,13 +18,13 @@ Start with the URL for the gist (not the block): <https://gist.github.com/mbosto
 
 Browse to: https://gist.jsbin.com/mbostock/4062045
 
-That's right, all you have to do is change "github" to "jsbin" in the gist's URL. But...
+That's right, all you have to do is change "github" to "jsbin" in the gist's URL. But, before you see anything...
 
-1. You'll have to change the URL for the data. In this case, change one line
+1. You'll have to change the URL for the data. In this case, change one line in jsbin.com:
 
         d3.json("miserables.json", function(error, graph) {
 
-    to
+    so that the data in "miserables.json" loads from the gist:
 
         var url = "https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/";
         d3.json(url + "miserables.json", function(error, graph) {
@@ -33,11 +33,11 @@ That's right, all you have to do is change "github" to "jsbin" in the gist's URL
 
 # fiddle
 
-JSFiddle.com has a nice collaborative mode, but it's the most difficult to configure for loading gists.  The files in this repo have been set up to load automatically in JSFiddle. To open the repo in JSFIddle, click:
+JSFiddle.com has a nice collaborative mode, but it's the most difficult to configure for loading gists.  The files in this repo have been set up to load automatically in JSFiddle. For example, to open the repo in JSFIddle, click:
 
 <http://jsfiddle.net/gh/get/library/pure/umbcvis/fiddle/tree/master/>
 
-The files used by JSFiddle:
+The files from this repo loaded to create this fiddle:
 
 * demo.html (html without boilerplate tags: doctype, html, meta, etc.)
 * demo.css (CSS only)
@@ -45,7 +45,7 @@ The files used by JSFiddle:
 * demo.details (manifest for configuring remote resources, such as d3.v4.min.js)
 * miserables.json (data served from the master branch)
 
-For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfiddle guidelines</a>. In addition, several important modifications in ```demo.js``` were changed to make it work well...
+For more info, see <a href="http://doc.jsfiddle.net/use/github_read.html">JSfiddle guidelines</a>. In addition, several important modifications in ```demo.js``` were made so that works well...
 
 * window.onload -- the callback contains all the code from the block (otherwise d3.js loads after the code)
 * svg -- the ```viewBox``` attribute and CSS ```width: 100%``` scale things to fit in the JSFiddle frame
